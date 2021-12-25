@@ -1,0 +1,83 @@
+/*-------------------------------------------------
+    [ ## Fields ]
+*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    &:focus {
+        outline: none;
+    }
+}
+input,textarea{
+    padding: 12px 20px;
+    &::placeholder{
+        color: $color__heading;
+    }
+}
+textarea {
+    display: block;
+    width: 100%;
+    display: block;
+    min-height: 120px;
+}
+input,
+select,
+textarea {
+    border: 1px solid $border--base;
+    vertical-align: baseline;
+    font-size: 100%;
+    color: $color__heading;
+}
+label {
+    font-size: 14px;
+    color: $color__heading;
+    font-family: $font_heading;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*-------------------------------------------------
+    [ ## Forms ]
+*/
+.form-group{
+    margin-bottom: 20px;
+    label{
+        font-size: 12px;
+    }
+}
+.form--control{
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    box-shadow: none;
+    height: 50px;
+    padding: 10px 15px;
+    color: $white;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: $font_heading;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    &:focus{
+        background-color: transparent;
+        // border:1px solid rgba($bg--base,0.6);
+        // box-shadow: 0 0 3px rgba($bg--base,0.6);
+        outline: none;
+        font-size: 1.1em;
+    }
+    &::placeholder{
+        color: $color__heading;
+    }
+}
+
+// FORMS-BTN
+.submit-btn{
+    padding: 10px 30px;
+    width: 100%;
+    font-family: $font_heading;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

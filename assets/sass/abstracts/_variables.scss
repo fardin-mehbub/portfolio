@@ -1,0 +1,57 @@
+/*-------------------------------------------------
+    [ ### font-variable start ]
+*/
+$font_heading: 'Jost', sans-serif;
+$font_body: 'Jost', sans-serif;
+/*-------------------------------------------------
+    [ ### font-variable end ]
+*/
+
+/*-------------------------------------------------
+    [ ### font_family-variable start ]
+*/
+$font-awesome: 'Font Awesome 5 Free';
+/*-------------------------------------------------
+    [ ### font_family-variable end ]
+*/
+
+/*-------------------------------------------------
+    [ ### font_size-variable start ]
+*/
+$base__font-size: 16px;
+$heading__one: 50px;
+$heading__two: 24px;
+$heading__three: 20px;
+$heading__four: 18px;
+$heading__five: 16px;
+$heading__six: 14px;
+/*-------------------------------------------------
+    [ ### font_size-variable end ]
+*/
+
+/*-------------------------------------------------
+    [ ### line_height-variable start ]
+*/
+$font__line-height-body: 1.5em;
+$font__line-height-heading: 1.2em;
+$font__line-height-paragraph: 1.8em;
+$font__line-height-pre: 1.6em;
+/*-------------------------------------------------
+    [ ### line_height-variable start ]
+*/
+
+/*-------------------------------------------------
+    [ ### initial-color-variable start ]
+*/
+$white: #dfdfdf; // white color
+$color__heading: #dfdfdf; // Heading color
+$color__text: #dfdfdf; // Text color
+$bg--base: -webkit-linear-gradient(20deg, #ff36a9 0%, #9459d4 54%, #297bff 91%); // Background base color
+$text--base: #fafafa; // Text base color
+$border--base: #e5e5e5; // Border base color
+$section--bg: #2c2d30; // Section bg color
+$bg--gray: #2c2d30; // Gray bg color
+$body--bg: #2c2d30; // body bg color
+/*-------------------------------------------------
+    [ ### initial-color-variable end ]
+*/
